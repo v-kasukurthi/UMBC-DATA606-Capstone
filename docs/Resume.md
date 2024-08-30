@@ -5,7 +5,7 @@
 ## Contact Information
 - **Email:** vkasuku1@umbc.edu
 - **Phone:** +1-201-314-9722
-- **LinkedIn:** [linkedin.com/in/yourprofile]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/vamsi-kasukurthi-648395191/))
+- **LinkedIn:** [linkedin.com/in/yourprofile]([https://linkedin.com/in/vamsi-kasukurthi-648395191/)
 - **GitHub:** [github.com/yourusername](https://github.com/v-kasukurthi)
 
 ## Education
