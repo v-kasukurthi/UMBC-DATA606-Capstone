@@ -10,12 +10,16 @@
 
 ## Education
 ### Mastre of Science in Data Science
-**University of Maryland Baltimore County**, Baltimore, Maryland | Graduation: Dec 2024
+**University of Maryland Baltimore County**, Baltimore, Maryland | Graduation: Dec 2024 | GPA: 3.71/4.00
 - Relevant Coursework: Python, Machine Learning, Big Data, Large Language Models, Statistics
 
+### Bachelors of Technology in Electronics and Communication Engineering
+**Vardhaman College of Engineering**, Hyderabad, India | Graduation: Dec 2021 | GPA: 8.7/10.0
+
 ## Certifications
-- Certified Kubernetes Administrator
-- AWS Certified Solutions Architect
+- Programming for Everybody (Getting Started with Python) from University of Michigan by Coursera.
+- Python and Introduction to Data Science from Udemy.
+- Getting Started with AWS Machine Learning authorized by Amazon Web Services from Coursera.
 
 ## Skills
 - Programming Languages: Python, R, C, C++
