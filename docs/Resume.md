@@ -10,15 +10,11 @@
 
 ## Education
 ### Mastre of Science in Data Science
-**University of Maryland Baltimore County**, Baltimore, Maryland
-Graduation: Dec 2024
-GPA: 3.71/4.00
+**University of Maryland Baltimore County**, Baltimore, Maryland | Graduation: Dec 2024 | GPA: 3.71/4.00
 - Relevant Coursework: Python, Machine Learning, Big Data, Large Language Models, Statistics
 
 ### Bachelors of Technology in Electronics and Communication Engineering
-**Vardhaman College of Engineering**, Hyderabad, India
-Graduation: Dec 2021
-GPA: 8.7/10.0
+**Vardhaman College of Engineering**, Hyderabad, India | Graduation: Dec 2021 | GPA: 8.7/10.0
 
 ## Certifications
 - Programming for Everybody (Getting Started with Python) from University of Michigan by Coursera.
