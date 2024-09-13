@@ -1,4 +1,4 @@
-##  Chicago Crime Analysis and Modeling
+##  Chicago Crime Analysis
 
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaoji (Jay) Wang - Fall 2024 Semester
 - Author: Vamsi Kasukurthi
