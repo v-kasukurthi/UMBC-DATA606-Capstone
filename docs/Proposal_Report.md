@@ -1,4 +1,4 @@
-## 1. Chicago Crime Analysis and Modeling
+##  Chicago Crime Analysis and Modeling
 
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaoji (Jay) Wang - Fall 2024 Semester
 - Author: Vamsi Kasukurthi
@@ -6,7 +6,7 @@
 - Linkedin : https://www.linkedin.com/in/vamsi-kasukurthi-648395191/
 
 
-## 2. Background
+##  Background
 ### What is it about? 
 The project is about using chicago crime data to model and understand crime patterns in Chicago. This involves:
 1. Identifying trends over time (e.g., by type of crime, location, or season).
@@ -23,7 +23,7 @@ It helps local authorities allocate resources more effectively (e.g., police pre
 
 
 
-## 3. DATA
+##  DATA
 Description : 
 
 1. Data Source : *[Chicago Data Portal](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)*. :link:
