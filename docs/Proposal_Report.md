@@ -36,8 +36,7 @@ Description :
 
 4. Time period (2001 - present)
 5. What does dataset represent - This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
-6. 
-7. Data Dictionary
+6. Data Dictionary
    
 ### Data Dictionary
 
