@@ -1,4 +1,4 @@
-## 1. Project Title - Chicago Crime Analysis and Modeling
+## 1. Chicago Crime Analysis and Modeling
 
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaoji (Jay) Wang - Fall 2024 Semester
 - Author: Vamsi Kasukurthi
