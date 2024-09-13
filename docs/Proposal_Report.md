@@ -40,7 +40,7 @@ Description :
    
 ### Data Dictionary
 
-| **Column Name**                        | **Definition**                                                                    |
+| **Column Name**                        | **Description**                                                                    |
 |----------------------------------------|------------------------------------------------------------------------------------|
 | `ID`                              | Unique identifier for the record.                                   |
 | `Case Number`                     | The Chicago Police Department RD Number (Records Division Number), which is unique to the incident.                           |
