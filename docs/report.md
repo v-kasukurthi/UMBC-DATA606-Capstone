@@ -70,3 +70,9 @@ Description :
 
 **Data Cleansing and Preprocessing:**
 The original dataset consists of 8.15M rows. For ease-of-use, only a chunk of the original data is taken for the analysis. The chunk size is 100,000 rows. The null values are mostly in the location related columns like X-coordinate, Y-coordinate, Latitude and Longitude. These are filled with 0 using the fillna() method.There are no duplicate rows present in the dataset as each row is a unique case.
+
+---
+
+### Data Visualization:
+**Univariate Analysis**:
+  The distribution of the target variable, `Arrest`, was analyzed to assess how the arrests are distributed in the data. Using the `value_counts()` function, occurrences of each arrests (True or False) were calculated. A bar plot was generated, where the x-axis represents arrests were made or not, and the y-axis shows the frequency of each category.
