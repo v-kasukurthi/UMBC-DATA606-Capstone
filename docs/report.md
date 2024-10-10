@@ -76,3 +76,6 @@ The original dataset consists of 8.15M rows. For ease-of-use, only a chunk of th
 ### Data Visualization:
 **Univariate Analysis**:
   The distribution of the target variable, `Arrest`, was analyzed to assess how the arrests are distributed in the data. Using the `value_counts()` function, occurrences of each arrests (True or False) were calculated. A bar plot was generated, where the x-axis represents arrests were made or not, and the y-axis shows the frequency of each category.
+  This visualization helps us quickly assess the proportion of cases with arrests 'True' compared to those without 'False'.
+
+![Univariate](./univariate.png)
