@@ -1,4 +1,4 @@
-##  Chicago Crime Analysis
+##  1. Chicago Crime Analysis
 
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaoji (Jay) Wang - Fall 2024 Semester
 - Author: Vamsi Kasukurthi
@@ -6,7 +6,7 @@
 - Linkedin : https://www.linkedin.com/in/vamsi-kasukurthi-648395191/
 
 
-##  Background
+## 2. Background
 ### What is it about? 
 The project is about using chicago crime data to model and understand crime patterns in Chicago. This involves:
 1. Identifying trends over time (e.g., by type of crime, location, or season).
@@ -23,7 +23,7 @@ It helps local authorities allocate resources more effectively (e.g., police pre
 
 
 
-##  DATA
+## 3. DATA
 Description : 
 
 1. Data Source : *[Chicago Data Portal](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)*. :link:
@@ -38,7 +38,7 @@ Description :
 5. What does dataset represent - This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
 6. Data Dictionary
    
-### Data Dictionary
+### 3.1 Data Dictionary
 
 | **Column Name**                        | **Description**                                                                    |
 |----------------------------------------|------------------------------------------------------------------------------------|
@@ -65,15 +65,33 @@ Description :
 | `Longitude`                       | The longitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.                          |
 | `Location`                        | The location where the incident occurred in a format that allows for creation of maps and other geographic operations on this data portal. This location is shifted from the actual location for partial redaction but falls on the same block.                                           |
 
+### 3.2 Target Variable
 
-## Exploratory Data Analysis
+- **'Arrest'**: Indicates whether the criminal is arrested or not in that particular crime.
 
-**Data Cleansing and Preprocessing:**
+### 3.3 Selected Features/Predictors for the ML Models
+
+The following columns are selected as features (predictors) to train the ML models:
+- **'Case Number'**: The Chicago Police Department RD Number (Records Division Number), which is unique to the incident.
+- **'IUCR'**: The Illinois Unifrom Crime Reporting code. This is directly linked to the Primary Type and Description. See the list of IUCR codes at https://data.cityofchicago.org/d/c7ck-438e.
+- **'Primary Type'**: The primary description of the IUCR code.
+- **'Domestic'**: Indicates whether the incident was domestic-related or not.
+- **'FBI Code'**: Indicates the crime classification as outlined in the FBI's National Incident-Based Reporting System (NIBRS).
+- **'Description'**: Short description of the type of crime
+- **'Description'**: Short description of the type of crime
+- **'Location description'**: Description of where crime occured
+- **'District'**: District code where crime occured
+- **'Community'**: Community area code where crime occured
+- **'Longitude & Latitude'**: Exact coordinates of crime occurance
+- **'Year'**: Year of crime
+
+
+## 4. Exploratory Data Analysis
+
+### 4.1 Data Cleansing and Preprocessing:
 The original dataset consists of 8.15M rows. For ease-of-use, only a chunk of the original data is taken for the analysis. The chunk size is 100,000 rows. The null values are mostly in the location related columns like X-coordinate, Y-coordinate, Latitude and Longitude. These are filled with 0 using the fillna() method.There are no duplicate rows present in the dataset as each row is a unique case.
 
----
-
-### Data Visualization:
+### 4.2 Data Visualization:
 **Univariate Analysis**:
   The distribution of the target variable, `Arrest`, was analyzed to assess how the arrests are distributed in the data. Using the `value_counts()` function, occurrences of each arrests (True or False) were calculated. A bar plot was generated, where the x-axis represents arrests were made or not, and the y-axis shows the frequency of each category.
   This visualization helps us quickly assess the proportion of cases with arrests 'True' compared to those without 'False'.
@@ -86,3 +104,13 @@ The original dataset consists of 8.15M rows. For ease-of-use, only a chunk of th
    - The size of the boxes and the length of the whiskers indicate the spread (variability) of beat numbers. A wider spread indicates more variation in the beat numbers where arrests were made or not made. Here we can observe similar variation in the 'Beat' numbers in both the cases.
 
 ![Bivariate](./bivariate.png)
+
+**Crimes by Location**:
+   - We have plotted number of crimes happened in the specific locations using bar graph. The x-axis denotes the number of crimes happened. The y-axis denotes the place of the crime.
+
+![Crimes by location](./crimes_by_loc.png)
+
+**Distribution of Crime Types**:
+   - You can see the most common and least common crime types. This can provide insights into the prevalent types of crime in the area. The x-axis indicates the length of each bar corresponds to the number of occurrences (or frequency) of that particular crime type. The y-axis indicates the crime type. If certain types of crimes (e.g., theft or assault) are disproportionately frequent, it may indicate areas where law enforcement resources should be focused.
+
+![Distribution of Crime Types](./crime_type_dist.png)
