@@ -79,3 +79,10 @@ The original dataset consists of 8.15M rows. For ease-of-use, only a chunk of th
   This visualization helps us quickly assess the proportion of cases with arrests 'True' compared to those without 'False'.
 
 ![Univariate](./univariate.png)
+
+**Bivariate Analysis**:
+   The goal of this bivariate analysis is to investigate whether the geographic area 'Beat' in which a crime occurs has any relationship with whether an 'Arrest' was made. The x-axis is based on the 'Arrest' column, which contains True or False values, representing whether an arrest was made. The y-axis represents the 'Beat' column, which is a numeric code representing a specific geographic area within a police district. This analysis helps us answer questions like whether certain beats more likely to have arrests or not.
+   - The position of the median lines in each box shows whether the distribution of beats differs significantly between cases with and without arrests. We can clearly see that there is no difference in the distribution of 'Beats' between cases with and without arrests.
+   - The size of the boxes and the length of the whiskers indicate the spread (variability) of beat numbers. A wider spread indicates more variation in the beat numbers where arrests were made or not made. Here we can observe similar variation in the 'Beat' numbers in both the cases.
+
+![Bivariate](./bivariate.png)
