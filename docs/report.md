@@ -67,3 +67,6 @@ Description :
 
 
 ## Exploratory Data Analysis
+
+**Data Cleansing and Preprocessing:**
+The original dataset consists of 8.15M rows. For ease-of-use, only a chunk of the original data is taken for the analysis. The chunk size is 100,000 rows. The null values are mostly in the location related columns like X-coordinate, Y-coordinate, Latitude and Longitude. These are filled with 0 using the fillna() method.There are no duplicate rows present in the dataset as each row is a unique case.
