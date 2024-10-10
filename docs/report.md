@@ -114,3 +114,9 @@ The original dataset consists of 8.15M rows. For ease-of-use, only a chunk of th
    - You can see the most common and least common crime types. This can provide insights into the prevalent types of crime in the area. The x-axis indicates the length of each bar corresponds to the number of occurrences (or frequency) of that particular crime type. The y-axis indicates the crime type. If certain types of crimes (e.g., theft or assault) are disproportionately frequent, it may indicate areas where law enforcement resources should be focused.
 
 ![Distribution of Crime Types](./crime_type_dist.png)
+
+**Distribution of the Community Area**:
+   - This is a histogram with a kernel density estimate (KDE) to visualize the distribution of the "Community Area" variable from the dataset. Each bar represents the count of occurrences for a specific range of community areas. The height of each bar corresponds to the number of crimes that occurred in that particular community area. The smooth KDE line overlaid on the histogram gives a clearer sense of the overall distribution. The peaks of this line represent areas with a higher density of occurrences.
+   - This visualization helps to understand the geographic distribution of incidents (like crimes) across different community areas. By looking at how the incidents are spread, you can identify which areas are more prone to specific incidents. This can help to deploy more forces to that particular community areas to reduce the number of crimes.
+
+![Distribution of the Community Area](./dist_comm_area.png)
