@@ -120,3 +120,50 @@ The original dataset consists of 8.15M rows. For ease-of-use, only a chunk of th
    - This visualization helps to understand the geographic distribution of incidents (like crimes) across different community areas. By looking at how the incidents are spread, you can identify which areas are more prone to specific incidents. This can help to deploy more forces to that particular community areas to reduce the number of crimes.
 
 ![Distribution of the Community Area](./dist_comm_area.png)
+
+
+## 5. Model Training and Evaluation
+
+### 5.1 Models Used for Predictive Analysis
+1. **Logistic Regression Classifier**
+2. **Decision Tree Classifier**
+3. **KNN Model**
+
+### 5.2 Training Methodology
+1. **Data Splitting**: Dataset was split into **80% training** and **20% testing** to allow the model to generalize on unseen data.
+2. **Python Packages**: 
+   - **scikit-learn**: Model training, evaluation, and tuning.
+   - **pandas** and **NumPy**: Data manipulation.
+   - **Matplotlib** and **Seaborn**: Visualization for EDA insights.
+3. **Development Environment**: Jupyter Notebook for computational support, GitHub for version control.
+
+### 5.3 Model Evaluation
+After hypertuning and adjusting the paramters, the results of the models accuracy are as follows:
+- **Logistic Regression**: Displayed a balanced performance with **92.53%** training accuracy and **92.72%** testing accuracy, suggesting minimal overfitting and stable generalization.
+- **Decision Tree**: Demonstrated mild overfitting with **92.46%** training accuracy and **92.37%** testing accuracy. Generates same as Logistic Regression model.
+- **K-Nearest Neighbors (KNN)**: Achieved an accuracy across training and testing datasets with **91.55%** accuracy, indicating the same results as the previous models.
+
+### Best Model Selection
+Based on post-tuning results, **Logistic Regression** was selected as the best model with a testing accuracy of **92.72%**, providing the most balanced performance across training and testing datasets.
+
+
+## 6. Web Application Development
+
+A user-friendly web application was built using **Streamlit** to make the model accessible and interactive. Key features include:
+1. **User Input**: Fields for selecting particular crime types and also to choose specific date range.
+2. **Prediction Output**: After processing the input data, the app displays the contours at the locations where the crime has been occured.
+
+![streamlit](./streamlit.png)
+
+## 7. Conclusion
+- Analysing Chicago's crime data revealed a complex interplay of factors influencing fluctuations in crime rates.
+- Community policing initiatives, technology adoption, violence reduction programs, and changes in criminal justice policies further shape the landscape of crime in the city. Economic conditions, including both booms and crises, also play a significant role.
+- Ultimately, understanding Chicago's crime dynamics requires a multifaceted approach encompassing historical data, community dynamics, law enforcement strategies, and socioeconomic factors.
+
+### Future Developments
+- The web app can be improvised with the crime records for the ease of access to police officers as well as crime department analysts to avoid crimes happening in the future.
+- Along with the dataset of Chicago city, various metropolitan cities crime data can be inserted into the model so that similarities between the crimes in different states can be observed.
+
+## 8. References
+Chicago Data Portal
+Data Source Link: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data
