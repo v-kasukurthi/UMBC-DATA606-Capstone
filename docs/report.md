@@ -166,4 +166,4 @@ A user-friendly web application was built using **Streamlit** to make the model 
 
 ## 8. References
 Chicago Data Portal
-Data Source Link: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data
+- Data Source Link: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data
