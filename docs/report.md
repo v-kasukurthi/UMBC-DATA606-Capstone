@@ -4,6 +4,7 @@
 - Author: Vamsi Kasukurthi
 - GitHub : https://github.com/v-kasukurthi
 - Linkedin : https://www.linkedin.com/in/vamsi-kasukurthi-648395191/
+- Presentation : docs/
 
 
 ## 2. Background
