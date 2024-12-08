@@ -5,7 +5,7 @@
 - GitHub : https://github.com/v-kasukurthi
 - Linkedin : https://www.linkedin.com/in/vamsi-kasukurthi-648395191/
 - Presentation : https://github.com/v-kasukurthi/UMBC-DATA606-Capstone/blob/main/docs/capstone.pptx
-- Youtube Video: 
+- Youtube Video: https://youtu.be/Z3dA2H0v_dI?si=HjSPA9MboeiwPcai
 
 
 ## 2. Background
